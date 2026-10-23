@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,500;1,600&display=swap');
+
+body {
+    background-color: black;
+}
+
+@theme {
+  --font-cormorant: "Cormorant Garamond", serif;
+}
+
+.navbar-link {
+    @apply opacity-70
+}
+
+.navbar-link:hover {
+    @apply opacity-100
+}
+
